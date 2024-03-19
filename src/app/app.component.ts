@@ -10,6 +10,6 @@ import { ChatComponent } from "./chat/chat.component";
   imports: [RouterOutlet, ChatComponent],
 })
 export class AppComponent {
-  title = "weavy-example-app";
+  title = "weavy-example-app: CHAT";
 }
 
