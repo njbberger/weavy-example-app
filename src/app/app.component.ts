@@ -1,13 +1,15 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component } from "@angular/core";
+import { RouterOutlet } from "@angular/router";
+import { ChatComponent } from "./chat/chat.component";
 
 @Component({
-  selector: 'app-root',
+  selector: "app-root",
   standalone: true,
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  templateUrl: "./app.component.html",
+  styleUrl: "./app.component.css",
+  imports: [RouterOutlet, ChatComponent],
 })
 export class AppComponent {
-  title = 'weavy-example-app';
+  title = "weavy-example-app";
 }
+
