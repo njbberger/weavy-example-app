@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+wy-chat {
+    /* override inherited font */
+    --wy-font-family: Tahoma;
+    /* font-family: 'Brush Script MT', cursive; */
+    --wy-theme-color: rgb(255, 251, 0);
+  }
